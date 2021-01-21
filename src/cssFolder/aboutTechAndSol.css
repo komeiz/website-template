@@ -1,0 +1,40 @@
+.bg-descrp{
+    margin-bottom:50px;
+}
+
+.descp-contain-ov{
+    z-index:1;
+}
+
+.descp-con{
+    background-color: #015D9D;
+    color:#fff;
+   padding:50px 50px;
+   width:620px;
+
+}
+
+.pdlock-img{
+    width:100%;
+}
+.tp-title{
+    color:#015D9D;
+}
+.tp-descrp, .fp-approach-head{
+    color:#000;
+    font-weight: bold;
+}
+.trusted-partners{
+    text-align: center;
+}
+
+@media screen and (max-width:400px){
+    .descp-con{
+        width:100%;
+        padding:20px;
+        margin-bottom: -40px;
+    }
+    .trusted-partners{
+        text-align: left;
+    }
+}

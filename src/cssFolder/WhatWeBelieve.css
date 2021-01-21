@@ -1,0 +1,59 @@
+.our-value{
+ 
+}
+.our-value-card{
+    box-shadow: 0px 3px 6px hsla(0, 0%, 0%, 0.161);
+    margin-bottom: -70px;
+    
+}
+
+.ourVs{
+    margin-bottom:70px;
+    background-color: #171E26;
+    padding-top: 50px   ;
+   
+}
+.our-vision-mission{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.grey{
+    width: 150px;
+    height:150px;
+   margin: 3px;
+}
+.grey1{
+    background-color: #BFBFBF;
+}
+.grey2{
+    background-color: #D9D5D5;
+}
+.grey3{
+    background-color: #A7A7A7;
+}
+.grey4{
+    background-color: #E3E3E3;
+
+
+}
+
+
+@media screen and (max-width:400px){
+    .our-value{
+        margin-bottom:0;
+    
+        
+    }
+    .ourVs{
+        margin-bottom: 0;
+        padding:10px;
+    }
+    .our-value-card{
+        margin-bottom: 0;
+    }
+    .c-values{
+        height: auto;
+    }
+
+}

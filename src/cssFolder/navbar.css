@@ -1,0 +1,53 @@
+.first-nav {
+  background: #003153;
+}
+
+.cara-t {
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+/* .about-us-dd, .our-grp-dd  {
+  display: none;
+}
+.about-us-dd .ddi,.our-grp-dd .ddi  {
+  display: block;
+} */
+
+.nav-b-title {
+  color: #003153;
+}
+.cara-grp-links li {
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.hm2-link-parent div {
+  list-style-type: none;
+}
+@media screen and (min-width: 1000px) {
+  .about-us-link:hover .about-us-dd,
+  .our-grp-links:hover .our-grp-dd,
+  .careers-links:hover .careers-dd,
+  .cnt-us-links:hover .cnt-us-dd,
+  .abt-us-links:hover .abt-us-dd {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .reach-us {
+    display: none !important;
+  }
+  .cara-grp-links li {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .reach-us {
+    flex-direction: row !important;
+  }
+  .reach-us li {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.join-careers{
+    background-color:#171E26;
+    height: 100vh;
+}
+.img-radius{
+    height:200px;
+    width:200px;
+    border:1px ;
+    border-radius: 50%;
+}

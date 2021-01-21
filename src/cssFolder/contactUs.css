@@ -1,0 +1,51 @@
+.email-con-list,.tel-con-list{
+padding-left:10px;
+}
+.ct-list li{
+    list-style-type: none;
+}
+.contact-form-sec{
+    height: 400px;
+    background: linear-gradient(-55deg,transparent 20%, #171E26 37%), url('../images/office-img-b.jpg') ;
+    
+   background-position: right;
+}
+.form-sec{
+    width:80%;
+}
+.cus-sup-container{
+    height: 90vh;
+}
+.red-address{
+    height:400px;
+}
+.map-sec{
+    height:400px;
+}
+@media screen and (max-width:500px){
+    .cus-sup-container{
+        height: auto;
+    }
+    .email-tel-row{
+        flex-direction: column;
+    }
+    .sup-col-1,.sup-col-2{
+        padding:20px;
+    }
+    .con-add-con{
+        padding-top :20px;
+        padding-bottom: 20px;
+    }
+    .form-sec{
+        width:auto;
+    }
+    .contact-form-sec{
+        height: auto;;
+         background: linear-gradient(-120deg,transparent 20%, #171E26 37%), url('../images/office-img-b.jpg');
+         background-position: inherit;
+     
+ }
+ .msg-send-btn{
+     padding-top:24px;
+ }
+}

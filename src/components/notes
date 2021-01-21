@@ -1,0 +1,379 @@
+ <div className="fixed-top" >
+
+              <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
+           <div className="container">
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarText">
+    <ul className="navbar-nav mr-auto ">
+      <li className="nav-item active">
+        <Link className="nav-link font-weight-bold" to="#">reach us on anytime<span className="sr-only">(current)</span></Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="#"><i className="fa fa-phone pr-1"></i>+96670456780</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="#"><i className="fa fa-envelope pr-1"></i>pun@gmail.com</Link>
+      </li>
+      
+    </ul>
+    <span className="social-media-icons">
+    <Link to="#" className="fa fa-facebook p-1 m-1 text-decoration-none "></Link>
+       <Link to="#" className="fa fa-twitter  p-1 m-1 text-decoration-none"></Link>
+       <Link to="#" className="fa fa-youtube p-1 m-1 text-decoration-none"></Link>
+       <Link to="#" className="fa fa-linkedin p-1 m-1 text-decoration-none"></Link>
+      
+    </span>
+  </div>
+           </div>
+         </nav>
+
+         {/* nsecond naaaaaaaaaaaaaaaaav */}
+         
+         <nav className="navbar-light bg-light second-nav p-3 ">
+  <div className="container">
+  <ul className="nav justify-content-around font-weight-bold">
+
+  <li className="nav-item">
+  <Link className="navbar-brand text-primary" to="/">CARAMEL GROUP</Link>
+  </li>
+  <li className="nav-item ">
+    <Link className="nav-link active" to="/">HOME</Link>
+  </li>
+  <li className ="nav-item dropdown">
+    <Link className ="nav-link dropdown-toggle" data-toggle="dropdown" to="#" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</Link>
+    <div className ="dropdown-menu">
+      <Link className ="dropdown-item" to="/WhoWeAre">who we are</Link>
+      <Link className ="dropdown-item" to="#">Our Grand vision </Link>
+      <Link className ="dropdown-item" to="#">Mission statement</Link>
+      <Link className ="dropdown-item" to="#">Core Values</Link>
+      <Link className ="dropdown-item" to="#">Corporate Teams</Link>
+      
+    </div>
+</li>
+<li className ="nav-item dropdown">
+    <Link className ="nav-link dropdown-toggle" data-toggle="dropdown" to="#" role="button" aria-haspopup="true" aria-expanded="false">OUR GROUP</Link>
+    <div className ="dropdown-menu">
+      <Link className ="dropdown-item" to="#">Caramel technologies and solution</Link>
+      <Link className ="dropdown-item" to="#">caramel energy</Link>
+      <Link className ="dropdown-item" to="#">Caramel constructs</Link>
+      <Link className ="dropdown-item" to="#">konnects</Link>  
+    </div>
+</li>
+  <li className="nav-item">
+    <Link className="nav-link text-secondary" to="/careers">CAREERS</Link>
+  </li>
+  <li className="nav-item">
+    <Link className="nav-link text-secondary" to="#">CONTACT US</Link>
+  </li>
+  <li className="fa fa-search mt-2"></li>
+</ul>
+  </div>
+</nav>
+
+              </div>
+         
+ <NavBar/>
+        <div className="bg-image ">
+          <div className="container">
+            <div className="intro-descr">
+              <h2 className="title text-white">CARAMEL GROUP</h2>
+              <p className="text-white">
+                Building a trans-generational organisation
+              </p>
+              <Link to ="/about">
+              <button
+                type="button"
+                class="btn btn-outline-primary btn1 active mr-2"
+              >
+                About us
+              </button>
+              </Link>
+              <button
+                type="button"
+                class="btn btn-outline-primary text-white border-white
+  "
+              >
+                watch video
+              </button>
+            </div>
+            <img src={this.state.imageicon} className="chat-icon" alt="" />
+          </div>
+        </div>
+        <div class="container p-5">
+          <div class="row">
+            <div class="col">
+              <div class="card border-0">
+                <div class="card-body card-style">
+                  <h2 class="card-title">Who We Are</h2>
+                  <h6 class="card-subtitle font-weight-light  mb-2 text-muted">
+                    We are passionate about outstanding customer service and
+                    exceptional employee satisfaction.
+                  </h6>
+                 <p> <small class="card-text card-txt ">
+                    We are Nigeria’s leading Information Technology, Real
+                    Estate, Civil Engineering,Power and Oil and Gas provider.
+                    Our business approach is focused on providing organizations
+                    with flexible business solutions focused on helping them
+                    accelerate their business using world-class technology and
+                    expertise.
+                  </small></p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                <div class="card-body card-style">
+                  <h2 class="card-title ">What We Believe</h2>
+                  <h6 class="card-subtitle font-weight-light mb-2 text-muted">
+                    We are passionate about outstanding customer service and
+                    exceptional employee satisfaction.
+                  </h6>
+                 <p> <small class="card-text card-txt ">
+                    We are Nigeria’s leading Information Technology, Real
+                    Estate, Civil Engineering, Power and Oil and Gas provider.
+                    Our business approach is focused on providing organizations
+                    with flexible business solutions focused on helping them
+                    accelerate their business using world-class technology and
+                    expertise.
+                  </small></p>
+                  <button type="button" class="btn btn-outline-primary">
+                    Primary
+                  </button>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card-group section-3">
+  <div class="card rh sec3-img-plcholder">
+    <div class="card-body sec3-b p-0">
+    <img src={this.state.cardIcon} className="img-sec3" alt=""/>
+      <div className="sec-3-body img-overlay">
+      <h5 class="card-title sec-3-head">Caramel Technologies</h5>
+      <p class="card-text sec-3-txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="card rh sec3-img-plcholder">
+    <div class="card-body sec3-b p-0">
+    <img src={this.state.cardIcon} className="img-sec3" alt=""/>
+      <div className="sec-3-body img-overlay">
+      <h5 class="card-title sec-3-head">Caramel Technologies</h5>
+      <p class="card-text sec-3-txt">This is a wider card with supporting text below as a natural lead-in to additional content.
+       This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="card rh sec3-img-plcholder">
+    <div class="card-body sec3-b p-0">
+    <img src={this.state.cardIcon} className="img-sec3" alt=""/>
+      <div className="sec-3-body img-overlay">
+      <h5 class="card-title sec-3-head">Caramel Technologies</h5>
+      <p class="card-text sec-3-txt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+        <div className="container p-5">
+          <div className="card border-0 text-center">
+            <div className="card-body ">
+              <h2>Corporate Social Responsibility</h2>
+              <p classNameName="">
+                Caramel Group is committed to adding value to society, and we are
+                dedicated to maintaining an ethical and sustainable business
+                model. We believe in the promise of Information Technology for
+                Nigeria and Africa in changing lives and businesses.
+              </p>
+              <div className="card-deck">
+                <div className="card border-0 cr">
+                  <img
+                    src={this.state.cardIcon}
+                    className="card-img-top"
+                    alt="card"
+                  />
+                  <div className=" card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+                <div className="card border-0">
+                  <img
+                    src={this.state.cardIcon}
+                    className="card-img-top"
+                    alt="card"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                  </div>
+                </div>
+                <div className="card border-0">
+                  <img
+                    src={this.state.cardIcon}
+                    className="card-img-top"
+                    alt="card"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button type="button" className="btn btn-primary">
+                Primary
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="container p-5">
+          <div className="card border-0 text-center">
+            <div className="card-body">
+              <h2>Latest News</h2>
+              <div className="card-deck p-5">
+                <div className="card border-0">
+                  <img src={this.state.cardIcon} className="card-img-top" alt="..." />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This is a longer card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+              
+                  </div>
+                </div>
+                <div className="card border-0">
+                  <img src={this.state.cardIcon} className="card-img-top" alt="..." />
+                  <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container  p-4">
+        <div class="card  border-0">
+  <div class="card-body">
+  <div class="d-flex  flex-column flex-sm-row justify-content-around">
+    <div class=" p-2 ">
+     <img src={this.state.custicon} alt="cust-icon"/>
+    </div>
+    <div class="p-1 col-6">
+      <h4>Got Questions?</h4>
+      <p><small>We are always looking for new partnerships and business opportunities. 
+       All innovative ideas and solutions are welcome to be discussed.</small></p>
+    </div>
+    <div class=" p-2">
+    <button type="button" class="btn btn-lg align-middle btn-primary">Primary</button>
+    </div>
+  </div>
+  </div>
+</div>
+        </div>
+        <Footer/>
+        .bg-image{
+    position: relative;
+    background-image: url('https://noll7noll.se/uploads/08/05/konferensen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+   
+   }
+   .crd-tp{
+    height: 300px;
+  background-image: url( "https://images.unsplash.com/photo-1561886373-c312a61f6bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+.card-txt{
+    opacity: 1;
+    color:#525252;
+line-height: 1.2emem;
+}
+.intro-descr{
+  position: absolute;
+  bottom:0px;
+  top:50vh;
+  text-align: left;
+}
+.title{
+  font-size:5vw;
+}
+.chat-icon{
+  width: 50px;
+  height:50px;
+  position: fixed;
+  bottom:5vh;
+  right:40px;
+  border-radius: 50%;
+  z-index: 1;
+  
+}
+
+.sec3-img-plcholder{
+  width:100%;
+  position: relative;
+ 
+}
+.img-sec3{
+  width:100%;
+  height:auto;
+  display: block;
+}
+.img-overlay{
+  position: absolute;
+  bottom:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:white;
+  display:flex;
+  flex-direction: column;
+ justify-content: flex-end;
+ transition:0.7s ease;
+ opacity: 0.6;
+}
+.img-overlay > *{
+  transition:0.7s ease;
+}
+.img-overlay:hover{
+  opacity: 1;
+  transition:0.7s ease;
+}
+.sec-3-txt{
+ display: none;
+}
+.img-overlay:hover .sec-3-txt{
+  display: block;
+ 
+}

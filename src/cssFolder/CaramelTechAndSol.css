@@ -1,0 +1,42 @@
+.homepage2-header{
+    
+    height: 90vh;
+   background-image: url("../images/blackgreybackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.our-ser-section{
+    height: 100vh;
+    background-color: #FCFCFC;
+}
+.sol-headline{
+    padding-bottom:30px
+}
+.service-support{
+    height: 100vh;
+}
+.our-solutions{
+   height:100vh;
+    margin-top: 20px;
+}
+.bg-active{
+    background-color: #015D9D;
+    color: white;
+    padding:10px 10px;
+}
+.bg-inactive{
+    background-color: #B2DCFA;
+    color:#015D9D;
+    padding:10px 10px;
+  border-bottom: 1px solid #CFEBFF;
+}
+.security-p-sec{
+    height:100vh;
+}
+
+@media screen and (max-width:400px){
+    .sol-items{
+        padding-top:20px;
+    }
+}

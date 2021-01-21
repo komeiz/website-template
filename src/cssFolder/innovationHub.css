@@ -1,0 +1,51 @@
+
+.row-bg-lap{
+    padding:50px;
+}
+
+.jumbo{
+    height:90vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(8, 0, 5, 0.6)), url('../images/bg-inno-laptop.png');
+    background-size:cover;
+}
+
+
+.security-gen-texts{
+    background-color: #F4F4F476;
+    padding:50px;
+ 
+}
+.sec-pro-list>ul{
+    padding-left: 0;
+}
+.sec-pro-list>ul>li{
+    list-style-type: none;
+    line-height: 2.5em;
+    color: #343434;
+}
+
+.row-bg-lap{
+    background-color: white;
+}
+
+
+@media screen and (max-width:800px){
+
+    .bg-img-col {
+        padding: 20px;
+    }
+    
+    .row-bg-lap{
+        padding:20px;
+    }
+    .security-p-sec{
+        height:100%;
+    }
+    .jumbo-bg{
+        height:100%;
+    
+    }
+    .security-gen-texts{
+       padding:49px 5px;
+    }
+    }
