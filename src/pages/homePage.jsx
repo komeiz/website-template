@@ -148,7 +148,7 @@ class Homepage extends Component {
               </p>
               <div class="row">
                 <div class="col-md-4 ">
-                  <img src={fpgEnergy} class="card-img-top  img3" alt="..." />
+                  <img src={fpgEnergy} class="card-img-top w-75  img3" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">CSR with our customers</h5>
                     <p class="card-text text-secondary">
@@ -160,7 +160,7 @@ class Homepage extends Component {
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <img src={fpgEnergy} class="card-img-top  img3" alt="..." />
+                  <img src={fpgEnergy} class="card-img-top w-75 img3" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">CSR with our partners</h5>
                     <p class="card-text text-secondary">
@@ -172,7 +172,7 @@ class Homepage extends Component {
                   </div>
                 </div>
                 <div class="col-md-4">
-                  <img src={fpgEnergy} class="card-img-top  img3" alt="..." />
+                  <img src={fpgEnergy} class="card-img-top w-75 img3" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">Other CSR</h5>
                     <p class="card-text text-secondary">

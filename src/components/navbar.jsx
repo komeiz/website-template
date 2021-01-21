@@ -126,14 +126,14 @@ class NavBar extends Component {
                   </Link>
                   <div className="dropdown-menu our-grp-dd">
                     <Link className="dropdown-item ddi" to="/caramelTechAndSol">
-                      Caramel technologies and solution
+                      Caramel technologies and solutions
                     </Link>
                     <Link className="dropdown-item ddi" to="/ourGroup">
-                      ourgroup
+                      our group
                     </Link>
                   </div>
                 </li>
-                <li class="nav-item dropdown careers-links">
+                {/* <li class="nav-item dropdown careers-links">
                   <Link
                     className="nav-link dropdown-toggle"
                     data-toggle="dropdown"
@@ -161,7 +161,7 @@ class NavBar extends Component {
                       FAQ/interview Tips
                     </Link>
                   </div>
-                </li>
+                </li> */}
                 <li class="nav-item dropdown cnt-us-links">
                   <Link
                     className="nav-link dropdown-toggle"
